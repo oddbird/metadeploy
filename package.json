@@ -105,7 +105,7 @@
     "css-loader": "^3.6.0",
     "eslint": "^7.5.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-import-resolver-typescript": "^2.2.0",
     "eslint-import-resolver-webpack": "^0.12.2",
     "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-jest": "^23.18.0",
