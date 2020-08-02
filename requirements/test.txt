@@ -16,7 +16,7 @@ pytest-factoryboy==2.0.3
 pytest-mock==3.2.0
 pytest==5.4.3
 sphinxcontrib-httpdomain==1.7.0
-vcrpy==4.0.2
+vcrpy==4.1.0
 
 # Transitive dependencies
 Babel==2.8.0
