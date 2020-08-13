@@ -70,7 +70,7 @@
     "reselect": "^4.0.0",
     "sockette": "^2.0.6",
     "uuid": "^8.2.0",
-    "whatwg-fetch": "^3.2.0"
+    "whatwg-fetch": "^3.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",
