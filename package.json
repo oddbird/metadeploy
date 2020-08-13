@@ -97,7 +97,7 @@
     "@typescript-eslint/eslint-plugin": "^3.7.0",
     "@typescript-eslint/parser": "^3.7.0",
     "autoprefixer": "^9.8.5",
-    "babel-jest": "^26.1.0",
+    "babel-jest": "^26.3.0",
     "babel-loader": "^8.1.0",
     "clean-webpack-plugin": "^3.0.0",
     "core-js": "^3.6.5",
