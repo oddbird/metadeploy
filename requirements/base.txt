@@ -40,7 +40,7 @@ Markdown==3.2.2
 MarkupSafe==1.1.1
 PyHamcrest==2.0.2
 PyYAML==5.3.1
-SQLAlchemy==1.3.18
+SQLAlchemy==1.3.19
 Twisted==20.3.0
 aioredis==1.3.1
 asgiref==3.2.10
