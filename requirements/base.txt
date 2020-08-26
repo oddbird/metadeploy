@@ -67,7 +67,7 @@ hyperlink==20.0.1
 idna==2.10
 incremental==17.5.0
 jmespath==0.10.0
-jwcrypto==0.7
+jwcrypto==0.8
 keyring==21.3.0
 logfmt==0.4
 lxml==4.5.2
