@@ -88,7 +88,7 @@
     "@types/classnames": "^2.2.10",
     "@types/core-js": "^2.5.3",
     "@types/js-cookie": "^2.2.6",
-    "@types/react": "^16.9.46",
+    "@types/react": "^16.9.47",
     "@types/react-document-title": "^2.0.4",
     "@types/react-dom": "^16.9.8",
     "@types/react-redux": "^7.1.9",
