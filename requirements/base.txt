@@ -71,7 +71,7 @@ jmespath==0.10.0
 jwcrypto==0.8
 keyring==21.4.0
 logfmt==0.4
-lxml==4.5.2
+lxml==4.6.1
 msgpack==1.0.0
 oauthlib==3.1.0
 pyasn1-modules==0.2.8
