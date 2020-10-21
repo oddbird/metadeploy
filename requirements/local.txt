@@ -16,4 +16,4 @@ pexpect==4.8.0
 pickleshare==0.7.5
 prompt-toolkit==3.0.7
 ptyprocess==0.6.0
-traitlets==5.0.4
+traitlets==5.0.5
