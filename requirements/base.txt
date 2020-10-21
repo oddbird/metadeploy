@@ -9,7 +9,7 @@ boto3==1.14.63
 channels==2.4.0
 channels-redis==3.1.0
 dj-database-url==0.5.0
-django-allauth==0.42.0
+django-allauth==0.43.0
 django-colorfield==0.3.2
 django-binary-database-files==1.0.13
 django-filter==2.3.0
