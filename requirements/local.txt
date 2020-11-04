@@ -3,7 +3,7 @@
 -r test.txt
 
 django-extensions==3.0.8
-ipython==7.18.1
+ipython==7.19.0
 
 # Transitive dependencies
 appnope==0.1.0
