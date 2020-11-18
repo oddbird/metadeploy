@@ -55,7 +55,7 @@ chardet==3.0.4
 coloredlogs==14.0
 constantly==15.1.0
 croniter==0.3.35
-daphne==2.5.0
+daphne==3.0.1
 defusedxml==0.6.0
 docutils==0.16
 entrypoints==0.3
