@@ -89,7 +89,7 @@ robotframework==3.2.2
 rq-scheduler==0.10.0
 rst2ansi==0.1.5
 s3transfer==0.3.3
-salesforce-bulk==2.1.0
+salesforce-bulk==2.2.0
 sarge==0.1.6
 selenium==3.141.0
 setuptools==50.3.2
