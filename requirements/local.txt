@@ -6,7 +6,7 @@ django-extensions==3.0.9
 ipython==7.19.0
 
 # Transitive dependencies
-appnope==0.1.0
+appnope==0.1.2
 backcall==0.2.0
 decorator==4.4.2
 ipython-genutils==0.2.0
