@@ -49,7 +49,7 @@ asn1crypto==1.4.0
 async-timeout==3.0.1
 autobahn==20.7.1
 botocore==1.19.25
-certifi==2020.11.8
+certifi==2020.12.5
 cffi==1.14.4
 chardet==3.0.4
 coloredlogs==14.0
