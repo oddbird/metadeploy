@@ -72,7 +72,7 @@ jwcrypto==0.8
 keyring==21.5.0
 logfmt==0.4
 lxml==4.6.1
-msgpack==1.0.0
+msgpack==1.0.2
 oauthlib==3.1.0
 pyasn1-modules==0.2.8
 pyasn1==0.4.8
