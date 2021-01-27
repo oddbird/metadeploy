@@ -40,7 +40,7 @@ py==1.9.0
 pycodestyle==2.6.0
 pyflakes==2.2.0
 pyparsing==2.4.7
-snowballstemmer==2.0.0
+snowballstemmer==2.1.0
 sphinxcontrib-applehelp==1.0.2
 sphinxcontrib-devhelp==1.0.2
 sphinxcontrib-htmlhelp==1.0.3
