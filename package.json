@@ -135,7 +135,7 @@
     "prettier": "^2.2.1",
     "react-test-renderer": "^16.14.0",
     "redux-mock-store": "^1.5.4",
-    "sass": "^1.30.0",
+    "sass": "^1.32.7",
     "sass-loader": "^10.1.0",
     "stylelint": "^13.8.0",
     "stylelint-config-prettier": "^8.0.2",
