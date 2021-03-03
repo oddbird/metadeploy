@@ -84,7 +84,7 @@ raven==6.10.0
 redis==3.5.3
 requests-oauthlib==1.3.0
 requests==2.25.1
-robotframework-seleniumlibrary==4.5.0
+robotframework-seleniumlibrary==5.1.0
 robotframework==3.2.2
 rq-scheduler==0.10.0
 rst2ansi==0.1.5
