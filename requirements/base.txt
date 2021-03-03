@@ -37,7 +37,7 @@ whitenoise==5.2.0
 Automat==20.2.0
 Click==7.1.2
 Jinja2==2.11.3
-Markdown==3.3.3
+Markdown==3.3.4
 MarkupSafe==1.1.1
 PyHamcrest==2.0.2
 PyYAML==5.4.1
