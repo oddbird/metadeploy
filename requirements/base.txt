@@ -56,7 +56,7 @@ coloredlogs==15.0
 constantly==15.1.0
 croniter==1.0.6
 daphne==3.0.1
-defusedxml==0.6.0
+defusedxml==0.7.1
 docutils==0.16
 entrypoints==0.3
 future==0.18.2
