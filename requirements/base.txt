@@ -69,7 +69,7 @@ idna==2.10
 incremental==17.5.0
 jmespath==0.10.0
 jwcrypto==0.8
-keyring==22.0.1
+keyring==23.0.0
 logfmt==0.4
 lxml==4.6.2
 msgpack==1.0.2
