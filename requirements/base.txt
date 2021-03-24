@@ -88,7 +88,7 @@ robotframework-seleniumlibrary==4.5.0
 robotframework==3.2.2
 rq-scheduler==0.10.0
 rst2ansi==0.1.5
-s3transfer==0.3.4
+s3transfer==0.3.6
 salesforce-bulk==2.2.0
 sarge==0.1.6
 selenium==3.141.0
