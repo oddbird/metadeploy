@@ -14,6 +14,6 @@ jedi==0.18.0
 parso==0.8.1
 pexpect==4.8.0
 pickleshare==0.7.5
-prompt-toolkit==3.0.16
+prompt-toolkit==3.0.18
 ptyprocess==0.7.0
 traitlets==5.0.5
