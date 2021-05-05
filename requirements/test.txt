@@ -18,7 +18,7 @@ sphinxcontrib-httpdomain==1.7.0
 vcrpy==4.1.1
 
 # Transitive dependencies
-Babel==2.9.0
+Babel==2.9.1
 Faker==6.1.1
 Pygments==2.8.0
 alabaster==0.7.12
