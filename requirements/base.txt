@@ -94,7 +94,7 @@ sarge==0.1.6
 selenium==3.141.0
 setuptools==53.0.0
 simple-salesforce==1.10.1
-six==1.15.0
+six==1.16.0
 sqlparse==0.4.1
 txaio==20.12.1
 unicodecsv==0.14.1
