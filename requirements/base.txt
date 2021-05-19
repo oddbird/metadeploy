@@ -30,7 +30,7 @@ psycopg2-binary==2.8.6
 rq==1.7.0
 sentry-sdk==0.20.2
 service_identity==18.1.0
-werkzeug==1.0.1
+werkzeug==2.0.1
 whitenoise==5.2.0
 
 # Transitive dependencies
