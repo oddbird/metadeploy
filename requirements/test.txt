@@ -9,7 +9,7 @@ factory_boy==3.2.0
 flake8==3.8.4
 isort==5.7.0
 pytest-asyncio==0.14.0
-pytest-cov==2.8.1
+pytest-cov==2.12.1
 pytest-django==4.1.0
 pytest-factoryboy==2.1.0
 pytest-mock==3.5.1
