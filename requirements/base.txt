@@ -10,7 +10,7 @@ channels==3.0.3
 channels-redis==3.2.0
 dj-database-url==0.5.0
 django-allauth==0.44.0
-django-colorfield==0.4.1
+django-colorfield==0.4.2
 django-binary-database-files==1.0.13
 django-filter==2.4.0
 django-hashid-field==3.1.3
