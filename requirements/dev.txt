@@ -6,8 +6,6 @@
 #
 alabaster==0.7.12
     # via sphinx
-appnope==0.1.2
-    # via ipython
 asgiref==3.4.1
     # via
     #   -c requirements/prod.txt
@@ -192,7 +190,7 @@ sphinxcontrib-devhelp==1.0.2
     # via sphinx
 sphinxcontrib-htmlhelp==2.0.0
     # via sphinx
-sphinxcontrib-httpdomain==1.7.0
+sphinxcontrib-httpdomain==1.8.0
     # via -r requirements/dev.in
 sphinxcontrib-jsmath==1.0.1
     # via sphinx
