@@ -6,8 +6,6 @@
 #
 alabaster==0.7.12
     # via sphinx
-appnope==0.1.2
-    # via ipython
 asgiref==3.4.1
     # via
     #   -c requirements/prod.txt
@@ -113,7 +111,7 @@ pexpect==4.8.0
     # via ipython
 pickleshare==0.7.5
     # via ipython
-pip-tools==6.3.0
+pip-tools==6.4.0
     # via -r requirements/dev.in
 platformdirs==2.4.0
     # via black
