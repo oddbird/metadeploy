@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 python:3.8
+FROM --platform=linux/amd64 python:3.10.0b2
 
 # System setup:
 RUN apt-get update \
