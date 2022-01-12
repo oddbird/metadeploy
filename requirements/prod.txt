@@ -259,7 +259,7 @@ oauthlib==3.1.1
     # via requests-oauthlib
 packaging==21.3
     # via bleach
-pillow==8.4.0
+pillow==9.0.0
     # via
     #   -r requirements/prod.in
     #   django-colorfield
