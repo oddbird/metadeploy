@@ -40,9 +40,9 @@ bleach==5.0.1
     # via
     #   -r requirements/prod.in
     #   sfdo-template-helpers
-boto3==1.24.61
+boto3==1.24.66
     # via -r requirements/prod.in
-botocore==1.27.61
+botocore==1.27.66
     # via
     #   boto3
     #   s3transfer
@@ -102,7 +102,7 @@ defusedxml==0.7.1
     # via python3-openid
 deprecated==1.2.13
     # via redis
-django==4.1
+django==4.1.1
     # via
     #   -r requirements/prod.in
     #   channels
@@ -151,7 +151,7 @@ django-rq==2.5.1
     # via
     #   -r requirements/prod.in
     #   django-rq-scheduler
-django-rq-scheduler==2022.7
+django-rq-scheduler==2022.9
     # via -r requirements/prod.in
 django-storages==1.13.1
     # via -r requirements/prod.in
@@ -224,7 +224,7 @@ jmespath==1.0.1
     # via
     #   boto3
     #   botocore
-jsonschema==4.14.0
+jsonschema==4.15.0
     # via drf-spectacular
 keyring==23.0.1
     # via cumulusci
