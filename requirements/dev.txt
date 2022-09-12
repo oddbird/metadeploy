@@ -45,7 +45,7 @@ django==4.1.1
     # via
     #   -c requirements/prod.txt
     #   django-extensions
-django-extensions==3.2.0
+django-extensions==3.2.1
     # via -r requirements/dev.in
 docutils==0.16
     # via
