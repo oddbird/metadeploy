@@ -230,7 +230,7 @@ tomli==2.0.1
     #   build
     #   coverage
     #   pytest
-traitlets==5.3.0
+traitlets==5.4.0
     # via
     #   ipython
     #   matplotlib-inline
