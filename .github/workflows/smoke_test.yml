@@ -10,7 +10,7 @@ env:
 jobs:
   production_smoke_test:
     name: 'Production Post-Deploy Smoke Test'
-    runs-on: ubuntu-latest
+    runs-on: sfdc-ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Set up Python 3.8
