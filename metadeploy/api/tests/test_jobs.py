@@ -7,6 +7,8 @@ import pytest
 import pytz
 import vcr
 from cumulusci.salesforce_api.exceptions import MetadataParseError
+
+from django.conf import settings
 from django.utils import timezone
 from django.utils.timezone import make_aware
 from rq.worker import StopRequested
@@ -201,7 +203,7 @@ def test_preflight_failure(
 @pytest.mark.django_db
 def test_expire_preflights(user_factory, plan_factory, preflight_result_factory):
     now = timezone.now()
-    eleven_minutes_ago = now - timedelta(minutes=11)
+    eleven_minutes_ago = now - timedelta(minutes=settings.PREFLIGHT_LIFETIME_MINUTES + 1)
     user = user_factory()
     plan = plan_factory()
     preflight1 = preflight_result_factory(
@@ -216,6 +218,9 @@ def test_expire_preflights(user_factory, plan_factory, preflight_result_factory)
     preflight3 = preflight_result_factory(
         user=user, plan=plan, status=PreflightResult.Status.complete, org_id=user.org_id
     )
+    preflight4 = preflight_result_factory(
+        user=user, plan=plan, status=PreflightResult.Status.started, org_id=user.org_id
+    )
 
     expire_preflights()
 
@@ -224,8 +229,9 @@ def test_expire_preflights(user_factory, plan_factory, preflight_result_factory)
     preflight3.refresh_from_db()
 
     assert not preflight1.is_valid
-    assert preflight2.is_valid
+    assert not preflight2.is_valid
     assert preflight3.is_valid
+    assert preflight4.is_valid
 
 
 @pytest.mark.django_db

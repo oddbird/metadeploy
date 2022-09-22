@@ -6,6 +6,7 @@
 
 tutorial
 troubleshooting
+scheduled_jobs
 api/index
 ```
 
