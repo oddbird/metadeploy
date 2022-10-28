@@ -4,7 +4,7 @@ on:
   workflow_dispatch: # Allow running on-demand
   schedule:
     # Every Monday at 8:00 UTC (4:00 Eastern)
-    - cron: '0 8 * * 1'
+    - cron: "0 8 * * 1"
 
 jobs:
   upgrade:
@@ -39,7 +39,7 @@ jobs:
         id: changes
         # prettier-ignore
         run:
-          echo "::set-output name=count::$(git status --porcelain=v1 2>/dev/null | wc -l)"
+          echo "count=$(git status --porcelain=v1 2>/dev/null | wc -l)" >> $GITHUB_OUTPUT
       - name: Commit & push changes
         if: steps.changes.outputs.count > 0
         run: |
